@@ -174,6 +174,12 @@ On OSX requires minimum version OSX 10.7.
 The main header files (for `YDSession`, `YDItemStat`, `YOAuth2Delegate`, and `YDSessionDelegate` are documented using HeaderDocs.
 Besides that there is documentation about the web API on the [Yandex Disk API page][DISKAPI] and [Yandex OAuth 2 API page][AUTHAPI].
 
+
+### I checked out the sources and it does not compile
+
+Make sure to also `git submodule init`, `git submodule update`, to get the KissXML library. Also to be able to compile the example, you will need to register an app, and add your client secret to the code. (Read the compile error.)
+
+
 ## License
 
 Лицензионное соглашение на использование набора средств разработки «SDK Яндекс.Диска» доступно по адресу: http://legal.yandex.ru/sdk_agreement
