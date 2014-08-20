@@ -160,7 +160,7 @@ Great, you made it so far. Now feel free to dig into the SDK, fork, remove, patc
 
 ### Does the Yandex Disk SDK support ARC?
 
-Yes. To use the SDK in a non-ARC project, please use the `-fobjc-arc` compiler flag on all the files in the Yandex Disk SDK.
+Yes. To use the SDK in a non-ARC project, please use the `-fno-objc-arc` compiler flag on all the files in the Yandex Disk SDK.
 
 
 ### Which versions of OS/ which deployment targets are supported?
