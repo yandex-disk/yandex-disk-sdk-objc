@@ -575,7 +575,7 @@
 
 + (NSURL *)urlForLocalPath:(NSString *)uri
 {
-    NSURL *url = [NSURL URLWithString:uri];
+    NSURL *url = [NSURL fileURLWithPath:uri];
     return url.isFileURL?url:nil;
 }
 
